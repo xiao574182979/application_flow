@@ -21,7 +21,7 @@ public final class LocalServiceStorage {
 
     }
 
-    public static IAppFlowService getService(String serviceName){
-        return serviceLocal.get(serviceName);
+    public static IAppFlowService getService(String flowName){
+        return serviceLocal.get(flowName);
     }
 }
